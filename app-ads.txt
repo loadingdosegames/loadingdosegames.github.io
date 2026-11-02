@@ -1,0 +1,3 @@
+# Loading Dose Games app-ads.txt
+# AdMob hesabi acildiginda asagidaki satirin basindaki # isaretini sil ve pub-XXXXXXXXXXXXXXXX kismini kendi yayinci kimliginle degistir:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
