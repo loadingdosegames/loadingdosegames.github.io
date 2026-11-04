@@ -1,135 +1,167 @@
 <!DOCTYPE html>
-<html lang="en" data-lang="en">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Privacy Policy · Loading Dose Games</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Loading Dose Games privacy policy and KVKK notice.">
+<title>Privacy Policy | NumBolt by Loading Dose Games</title>
+<meta name="description" content="How NumBolt and Loading Dose Games handle your data: on-device progress, Google Play Games, AdMob ads, your GDPR and KVKK rights.">
+<link rel="canonical" href="https://loadingdosegames.com/privacy/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#17113A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Loading Dose Games">
+<meta property="og:title" content="Privacy Policy | NumBolt by Loading Dose Games">
+<meta property="og:description" content="How NumBolt and Loading Dose Games handle your data: on-device progress, Google Play Games, AdMob ads, your GDPR and KVKK rights.">
+<meta property="og:url" content="https://loadingdosegames.com/privacy/">
+<meta property="og:image" content="https://loadingdosegames.com/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@500;700;900&family=Silkscreen&display=swap">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>@font-face{font-family:"Lilita One";src:url("../fonts/lilita-one.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Nunito";src:url("../fonts/nunito.woff") format("woff");font-weight:500 900;font-style:normal;font-display:swap}</style>
 <style>
-:root {
-  --paper: #17113A; --panel: #211955; --ink: #FFF6E5; --muted: #BDB4E6; --teal: #3FC1C9; --coral: #FF5D73; --amber: #FFB627; --line: #3B3180;
-  --f-display: "Lilita One", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
-  --f-body: "Nunito", ui-rounded, "Segoe UI", system-ui, sans-serif;
-  color-scheme: dark;
-}
+:root { --night:#17113A; --panel:#211955; --line:#3B3180; --chalk:#FFF6E5; --muted:#BDB4E6; --amber:#FFB627; --coral:#FF5D73; --teal:#3FC1C9;
+  --f-display:"Lilita One","Arial Rounded MT Bold","Trebuchet MS",sans-serif; --f-body:"Nunito",ui-rounded,"Segoe UI",system-ui,sans-serif; color-scheme: dark; }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--paper); color: var(--ink); font: 1.0625rem/1.65 var(--f-body); -webkit-font-smoothing: antialiased; }
-[data-lang="en"] .tr, [data-lang="tr"] .en { display: none !important; }
-.wrap { max-width: 46rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 1.5rem 3rem; }
-.top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2.5rem; }
-.top a { color: var(--muted); text-decoration: none; font-weight: 700; }
-.top a:hover { color: var(--ink); }
-.lang { font: 900 .85rem var(--f-body); color: var(--ink); background: transparent; border: 2px solid var(--line); border-radius: 999px; padding: .2rem .7rem; cursor: pointer; }
-.lang:hover { border-color: var(--amber); color: var(--amber); }
+body { margin: 0; background: var(--night); color: var(--chalk); font: 1.0625rem/1.65 var(--f-body); -webkit-font-smoothing: antialiased; }
+[hidden] { display: none !important; }
+.wrap { max-width: 46rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 1.25rem 4rem; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2.25rem; }
+.top a.home { color: var(--muted); font-weight: 700; text-decoration: none; }
+.top a.home:hover { color: var(--chalk); }
+.langs { display: flex; gap: .4rem; }
+.langs button { font: 900 .85rem var(--f-body); color: var(--muted); background: transparent; border: 2px solid var(--line); border-radius: 999px; padding: .2rem .75rem; cursor: pointer; }
+.langs button[aria-pressed="true"] { color: var(--chalk); border-color: var(--amber); }
+a { color: var(--chalk); text-decoration-color: var(--teal); text-underline-offset: .18em; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; border-radius: 4px; }
-h1 { font-family: var(--f-display); font-weight: 400; color: var(--amber); font-size: clamp(2rem, 6vw, 2.8rem); letter-spacing: .005em; line-height: 1.05; margin: 0 0 .5rem; text-wrap: balance; }
+h1 { font-family: var(--f-display); font-weight: 400; color: var(--amber); font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.05; margin: 0 0 .4rem; text-wrap: balance; }
 .date { color: var(--muted); margin: 0 0 2rem; }
-h2 { font-family: var(--f-display); font-weight: 400; font-size: 1.45rem; letter-spacing: .01em; margin: 2.4rem 0 .5rem; text-wrap: balance; }
-h3 { font-size: 1.05rem; font-weight: 900; margin: 1.5rem 0 .35rem; color: var(--teal); }
-p, li { max-width: 65ch; }
-ul, ol { padding-left: 1.3rem; }
-li { margin-bottom: .4rem; }
-a { color: var(--ink); text-decoration-color: var(--teal); text-underline-offset: .18em; overflow-wrap: anywhere; }
-em { color: var(--muted); }
-.summary { background: var(--panel); border: 2px solid var(--line); border-radius: 18px; padding: 1rem 1.25rem; }
-.summary ul { margin: .4rem 0 0; }
-.table-wrap { overflow-x: auto; margin: .75rem 0; }
-table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .95rem; }
-th, td { border: 1px solid var(--line); padding: .55rem .7rem; text-align: left; vertical-align: top; }
-th { background: var(--panel); color: var(--amber); font-weight: 900; }
-footer { border-top: 3px solid var(--line); margin-top: 3rem; padding-top: 1.25rem; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; color: var(--muted); font-size: .9rem; }
+h2 { font-family: var(--f-display); font-weight: 400; font-size: 1.45rem; letter-spacing: .01em; margin: 2.25rem 0 .5rem; }
+h3 { font-size: 1.05rem; font-weight: 900; margin: 1.4rem 0 .3rem; }
+.short { background: var(--panel); border: 2px solid var(--line); border-radius: 16px; padding: 1rem 1.25rem; }
+ul, ol { padding-left: 1.25rem; } li { margin-bottom: .35rem; }
+footer { border-top: 2px solid var(--line); margin-top: 3rem; padding-top: 1.25rem; color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
 footer a { color: var(--muted); }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="top">
-    <a href="../">← Loading Dose Games</a>
-    <button class="lang" id="langBtn" type="button" aria-label="Switch language"><span class="en">TR</span><span class="tr">EN</span></button>
+    <a class="home" href="../">← Loading Dose Games</a>
+    <div class="langs" role="group" aria-label="Language"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="tr" aria-pressed="false" lang="tr">TR</button></div>
   </div>
-<article class="tr" lang="tr">
-<h1>Gizlilik Politikası ve KVKK Aydınlatma Metni</h1>
-<p class="date">Son güncelleme: 1 Kasım 2026</p>
+  <article data-l="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: 3 November 2026</p>
+    
+<div class="short"><p><b>In short.</b> We don't run our own servers or databases. Your NumBolt progress stays on your phone unless you sign in to Google Play Games. Ads are served by Google AdMob, and personalised ads are only shown with your consent. The personal data we receive directly is limited to the emails you send us and the player names and scores we can see in Google Play Console. We never sell your data.</p></div>
 
-<div class="summary"><strong>Kısaca</strong>
+<h2>1. Who we are</h2>
+<p>The data controller is Oğuz Çamlıbel, trading as Loading Dose Games ("we"). This policy covers the NumBolt mobile game and this website. Contact: <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a>. Our postal address is available on request by email.</p>
+
+<h2>2. What we process, why, and on what legal basis</h2>
+<h3>2.1 Game data on your phone</h3>
+<p>Nickname, avatar and frame choices, scores, coins, XP and level, quest and daily reward status, and your language, sound and vibration settings. This data is stored only on your device; we can't see it. It is deleted when you uninstall the game or use <i>Settings → Delete my data</i>.</p>
+<h3>2.2 Google Play Games Services (only if you sign in)</h3>
+<p>Your Play Games player ID, player name, profile picture and leaderboard scores, used to run leaderboards and, if cloud save is added in a later version, to keep your progress across devices. We can see player names and leaderboard scores in Google Play Console. We never ask for your email address. Legal basis: providing the service you asked for (GDPR Art. 6(1)(b); KVKK Art. 5(2)(c)).</p>
+<h3>2.3 Advertising (Google AdMob)</h3>
+<p>Google AdMob processes your advertising ID, IP address and the approximate location derived from it, device model, operating system, language, and ad impressions and clicks. This is used to show and measure ads and to prevent fraud, and, only with your consent, to personalise ads. Before personalised ads are shown, the game asks for your consent through Google's consent form wherever the law requires it, including the EEA, the UK, Switzerland and Turkey. You can change your choice at any time under <i>Settings → Privacy options</i>, and you can reset or delete your advertising ID in your Android settings. Google acts as an independent controller for this data. Legal basis: consent for personalised ads (GDPR Art. 6(1)(a); KVKK explicit consent); legitimate interest for non-personalised ads and fraud prevention (GDPR Art. 6(1)(f); KVKK Art. 5(2)(f)).</p>
+<h3>2.4 Support emails</h3>
+<p>If you write to us: your email address, your name if you give it, and your message. Used only to answer you and to handle privacy requests. Legal basis: legitimate interest and, for privacy requests, our legal obligations.</p>
+<h3>2.5 Google Play statistics</h3>
+<p>Aggregated, non-identifying data from Google Play Console, such as installs, countries, crashes and performance. Used to fix bugs and improve the game.</p>
+<h3>2.6 This website</h3>
+<p>The website uses no cookies, ads, analytics or forms. It is hosted on GitHub Pages, which may keep visitors' IP addresses in its server logs. Fonts, images and the video are served from this website itself, so visiting it does not send your IP address to any other service.</p>
+
+<h2>3. How we collect data</h2>
+<p>Automatically through the game and the Google SDKs inside it (AdMob, Play Games Services), and directly from you when you email us.</p>
+
+<h2>4. Sharing</h2>
+<p>We don't sell or rent personal data. Data is processed only by our service providers, Google LLC / Google Ireland Ltd. and GitHub, Inc., and is disclosed to authorities only where the law requires it.</p>
+
+<h2>5. International transfers</h2>
+<p>The services that process personal data for us run on servers outside Turkey, mainly in the United States and the European Union:</p>
 <ul>
-<li>Kendi sunucumuz ya da veritabanımız yok. Oyundaki ilerlemen yalnızca telefonunda saklanır.</li>
-<li>Reklamlar (Google AdMob) ve liderlik tablosu (Google Play Oyun Hizmetleri) Google tarafından sağlanır. Bu hizmetler kendi verilerini toplar.</li>
-<li>Bizim doğrudan eriştiğimiz tek kişisel veri, bize e-posta yazarsan e-posta adresin ve mesajındır.</li>
-<li>Verilerini satmayız.</li>
-</ul></div>
+<li>Google AdMob and Google Play Games Services (Google LLC, Google Ireland Ltd.): advertising data, and player name and scores if you sign in.</li>
+<li>Gmail (Google LLC): support emails you send us.</li>
+<li>GitHub Pages (GitHub, Inc.): server logs of visits to this website.</li>
+</ul>
+<p>Transfers of data of users in Turkey are carried out in line with KVKK Art. 9. You can write to us to ask which safeguard a transfer relies on. For users in the EEA, the UK and Switzerland, Google and GitHub rely on the European Commission's Standard Contractual Clauses and the EU-US Data Privacy Framework.</p>
+
+<h2>6. Retention</h2>
+<ul>
+<li>Game data on your phone: until you delete it or uninstall the game.</li>
+<li>Support emails: deleted one year after the issue is resolved.</li>
+<li>Privacy requests and our replies: kept for three years as a record.</li>
+<li>Data held by Google: according to Google's own retention policies.</li>
+</ul>
+
+<h2>7. Children</h2>
+<p>Our games are made for players aged 13 and over. If we learn that we have personal data from a child under 13, we delete it. If you are under the age your country requires to give consent for personalised ads, ask a parent or guardian to complete the consent form with you.</p>
+
+<h2>8. Security</h2>
+<p>We keep no player data on servers of our own. Support emails are stored in our Gmail account. Our accounts are protected with two-step verification and only the data controller can access them. If a breach affecting your data occurs, we will notify the competent authority within 72 hours and inform you without undue delay.</p>
+
+<h2>9. Your rights</h2>
+<p>You can ask to access, correct or delete your data, to restrict or object to processing, to receive your data in a portable format, and to withdraw consent at any time. Users in Turkey also have all the rights listed in KVKK Art. 11. Send requests to <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a>. We reply free of charge within 30 days. You can also complain to the Turkish Personal Data Protection Authority (<a href="https://www.kvkk.gov.tr" rel="noopener">kvkk.gov.tr</a>) or to the data protection authority in your EU country.</p>
+
+<h2>10. Changes</h2>
+<p>If we change this policy, we will publish the new version on this page with a new date and announce significant changes in the game. This policy is published in English and Turkish; if they differ, the Turkish version prevails for users in Turkey and the English version for everyone else.</p>
+
+  </article>
+  <article data-l="tr" lang="tr">
+    <h1>Gizlilik Politikası ve KVKK Aydınlatma Metni</h1>
+    <p class="date">Son güncelleme: 3 Kasım 2026</p>
+    
+<div class="short"><p><b>Kısaca.</b> Kendi sunucumuz veya veritabanımız yok. NumBolt ilerlemen, Google Play Games'e giriş yapmadığın sürece sadece telefonunda kalır. Reklamları Google AdMob gösterir, kişiselleştirilmiş reklamlar yalnızca onay verirsen gösterilir. Doğrudan aldığımız kişisel veriler, bize gönderdiğin e-postalar ve Google Play Console'da görebildiğimiz oyuncu adları ile skorlarla sınırlıdır. Verilerini asla satmayız.</p></div>
 
 <h2>1. Veri sorumlusu</h2>
-<p>Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (KVKK) 10. maddesi ve AB Genel Veri Koruma Tüzüğü'nün (GDPR) 13. maddesi uyarınca hazırlanmıştır. Loading Dose Games tarafından yayımlanan oyunlar (şu anda: <strong>NumBolt</strong>) için geçerlidir.</p>
-<p><strong>Veri sorumlusu:</strong> Oğuz Çamlıbel (Loading Dose Games)<br>
-<strong>E-posta:</strong> <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a><br>
-<strong>Web:</strong> loadingdosegames.com</p>
+<p>Veri sorumlusu, Loading Dose Games adıyla faaliyet gösteren Oğuz Çamlıbel'dir ("biz"). Bu metin NumBolt mobil oyununu ve bu web sitesini kapsar. İletişim: <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a>. Posta adresimizi e-postayla talep edebilirsin.</p>
 
 <h2>2. Hangi verileri, hangi amaçla ve hangi hukuki sebeple işliyoruz?</h2>
-
 <h3>2.1 Telefonunda kalan oyun verileri</h3>
-<p>Takma adın, avatar ve çerçeve seçimlerin, skorların, coin, XP ve seviye bilgin, görev ve günlük ödül durumun, dil, ses ve titreşim ayarların. Bu veriler yalnızca telefonunun hafızasında saklanır, bize gönderilmez ve biz bunlara erişemeyiz. Oyunu kaldırdığında ya da oyunda <em>Ayarlar → Verilerimi sil</em> düğmesine bastığında silinir.</p>
-
-<h3>2.2 Google Play Oyun Hizmetleri (giriş yaparsan)</h3>
-<ul>
-<li><strong>Veriler:</strong> Play Games oyuncu kimliğin, oyuncu adın ve profil resmin, liderlik tablosuna gönderilen skorların; kullanıma açıldığında ilerlemenin bulut kaydı.</li>
-<li><strong>Amaç:</strong> Liderlik tablosunu çalıştırmak ve ilerlemeni cihazlar arasında taşıyabilmek.</li>
-<li><strong>Hukuki sebep:</strong> Oyun hizmetinin sunulması için gerekli olması (KVKK m.5/2-c; GDPR m.6/1-b).</li>
-<li>E-posta adresini istemeyiz. Google Play Console üzerinden yalnızca liderlik tablosundaki oyuncu adlarını ve skorları görebiliriz.</li>
-</ul>
-
+<p>Takma ad, avatar ve çerçeve seçimleri, skorlar, jetonlar, XP ve seviye, görev ve günlük ödül durumu ile dil, ses ve titreşim ayarları. Bu veriler yalnızca cihazında saklanır, biz göremeyiz. Oyunu kaldırdığında veya <i>Ayarlar → Verilerimi sil</i> seçeneğini kullandığında silinir.</p>
+<h3>2.2 Google Play Oyun Hizmetleri (yalnızca giriş yaparsan)</h3>
+<p>Play Games oyuncu kimliğin, oyuncu adın, profil fotoğrafın ve skor tablosu skorların. Skor tablolarını çalıştırmak ve ileride bulut kayıt eklenirse ilerlemeni cihazlar arasında korumak için kullanılır. Oyuncu adlarını ve skor tablosu skorlarını Google Play Console'da görebiliriz. E-posta adresini asla istemeyiz. Hukuki sebep: talep ettiğin hizmetin sunulması (KVKK m.5/2-c; GDPR m.6/1-b).</p>
 <h3>2.3 Reklamlar (Google AdMob)</h3>
-<ul>
-<li><strong>Veriler:</strong> Reklam kimliği (Android Advertising ID), IP adresi ve buna dayalı yaklaşık konum, cihaz modeli, işletim sistemi ve dil, reklam gösterim ve tıklama bilgileri.</li>
-<li><strong>Amaç:</strong> Reklam göstermek, reklam performansını ölçmek, sahte tıklamaları ve kötüye kullanımı önlemek; izin verirsen ilgi alanlarına göre (kişiselleştirilmiş) reklam göstermek.</li>
-<li><strong>Hukuki sebep:</strong> Kişiselleştirilmiş reklam için açık rızan (KVKK m.5/1; GDPR m.6/1-a). Kişiselleştirilmemiş reklam ve kötüye kullanımın önlenmesi için meşru menfaatimiz (KVKK m.5/2-f; GDPR m.6/1-f).</li>
-<li>AB, Birleşik Krallık ve İsviçre'de oyun ilk açılışta Google'ın izin penceresini gösterir. Seçimini istediğin zaman oyunda <em>Ayarlar → Gizlilik tercihleri</em> bölümünden değiştirebilirsin.</li>
-<li>Google bu verileri kendi adına, bağımsız veri sorumlusu olarak işler. Ayrıntılar: <a href="https://policies.google.com/privacy?hl=tr" rel="noopener">Google Gizlilik Politikası</a> ve <a href="https://policies.google.com/technologies/partner-sites?hl=tr" rel="noopener">Google, iş ortağı uygulamalardan gelen bilgileri nasıl kullanır?</a></li>
-<li>Reklam kimliğini telefonunun <em>Ayarlar → Google → Reklamlar</em> bölümünden sıfırlayabilir veya silebilirsin.</li>
-</ul>
-
+<p>Google AdMob; reklam kimliğini, IP adresini ve buna dayalı yaklaşık konumu, cihaz modelini, işletim sistemini, dili ve reklam gösterim ile tıklama verilerini işler. Bunlar reklam göstermek, ölçmek ve dolandırıcılığı önlemek için, ayrıca yalnızca onay verirsen reklamları kişiselleştirmek için kullanılır. Kişiselleştirilmiş reklam gösterilmeden önce oyun, mevzuatın gerektirdiği yerlerde, Avrupa Ekonomik Alanı, Birleşik Krallık, İsviçre ve Türkiye dahil, Google'ın izin formuyla onayını ister. Seçimini istediğin zaman <i>Ayarlar → Gizlilik seçenekleri</i> bölümünden değiştirebilir, reklam kimliğini Android ayarlarından sıfırlayabilir veya silebilirsin. Google bu veriler için bağımsız veri sorumlusudur. Hukuki sebep: kişiselleştirilmiş reklamlar için açık rıza; kişiselleştirilmemiş reklamlar ve dolandırıcılığın önlenmesi için meşru menfaat (KVKK m.5/2-f; GDPR m.6/1-f).</p>
 <h3>2.4 Destek yazışmaları</h3>
-<ul>
-<li><strong>Veriler:</strong> E-posta adresin, yazarsan adın ve mesajının içeriği.</li>
-<li><strong>Amaç:</strong> Sorunu çözmek, soruna cevap vermek ve bu metindeki hak başvurularını yürütmek.</li>
-<li><strong>Hukuki sebep:</strong> Hizmetin sunulması (KVKK m.5/2-c), hukuki yükümlülüğümüzün yerine getirilmesi (KVKK m.5/2-ç); GDPR m.6/1-b ve c.</li>
-</ul>
-
+<p>Bize yazarsan: e-posta adresin, verdiysen adın ve mesajın. Yalnızca sana cevap vermek ve gizlilik başvurularını yürütmek için kullanılır. Hukuki sebep: meşru menfaat ve gizlilik başvurularında yasal yükümlülüklerimiz.</p>
 <h3>2.5 Google Play istatistikleri</h3>
-<p>Google Play Console bize kurulum sayıları, ülke dağılımı, çökme ve performans raporları gibi toplu ve kimliksiz istatistikler sunar. Bu bilgilerle seni tanımlayamayız.</p>
-
+<p>Google Play Console'dan gelen, seni tanımlamayan toplu veriler: yükleme sayısı, ülkeler, çökmeler ve performans gibi. Hataları düzeltmek ve oyunu geliştirmek için kullanılır.</p>
 <h3>2.6 Bu web sitesi</h3>
-<p>loadingdosegames.com çerez, reklam veya ziyaretçi takip aracı kullanmaz ve bir form aracılığıyla veri toplamaz. Site GitHub Pages (GitHub, Inc., ABD) üzerinde barındırılır. GitHub, siteyi sunmak ve güvenliğini sağlamak için ziyaretçilerin IP adresini teknik kayıtlarında kısa süreliğine tutabilir. Sitedeki yazı tipleri Google Fonts üzerinden yüklenir; bu sırada tarayıcın IP adresini Google'a iletir (<a href="https://developers.google.com/fonts/faq/privacy" rel="noopener">Google Fonts gizlilik SSS</a>). Ayrıntılar: <a href="https://docs.github.com/tr/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Gizlilik Bildirimi</a>.</p>
+<p>Sitede çerez, reklam, analiz aracı veya form yoktur. Site GitHub Pages'te barındırılır; GitHub ziyaretçilerin IP adreslerini sunucu kayıtlarında tutabilir. Yazı tipleri, görseller ve video bu sitenin kendisinden yüklenir, bu yüzden siteyi ziyaret ettiğinde IP adresin başka bir hizmete gönderilmez.</p>
 
 <h2>3. Verilerin toplanma yöntemi</h2>
-<p>Veriler; oyun ve oyuna eklenen Google yazılım bileşenleri (AdMob, Play Oyun Hizmetleri) aracılığıyla otomatik yollarla ve bize gönderdiğin e-postalar aracılığıyla toplanır.</p>
+<p>Oyun ve içindeki Google SDK'ları (AdMob, Play Oyun Hizmetleri) aracılığıyla otomatik olarak; bize e-posta gönderdiğinde ise doğrudan senden.</p>
 
 <h2>4. Kimlerle paylaşılır?</h2>
-<p>Kişisel verilerini satmayız ve kiralamayız. Veriler yalnızca yukarıda anlatılan hizmetleri sağlayan Google LLC / Google Ireland Limited ve GitHub, Inc. ile ve kanunen zorunlu olduğu hâllerde yetkili kamu kurum ve kuruluşlarıyla paylaşılabilir.</p>
+<p>Kişisel verileri satmayız veya kiralamayız. Veriler yalnızca hizmet sağlayıcılarımız Google LLC / Google Ireland Ltd. ve GitHub, Inc. tarafından işlenir; yetkili kurumlarla yalnızca kanunen zorunlu olduğunda paylaşılır.</p>
 
 <h2>5. Yurt dışına aktarım</h2>
-<p>Google hizmetleri (AdMob, Play Oyun Hizmetleri ve e-posta için Gmail) ve sitenin barındırıldığı GitHub verileri Türkiye dışında, başta ABD olmak üzere Google'ın veri merkezlerinde işler. Bu aktarım KVKK m.9 kapsamında, kişiselleştirilmiş reklamlar için izin penceresinde verdiğin açık rızaya ve diğer durumlarda mevzuatın öngördüğü uygun güvencelere dayanılarak yapılır. AB'den yapılan aktarımlarda Google, AB Standart Sözleşme Maddeleri'ni ve AB-ABD Veri Gizliliği Çerçevesi'ni kullanır.</p>
+<p>Kişisel verileri bizim için işleyen hizmetlerin sunucuları Türkiye dışında, ağırlıklı olarak ABD'de ve Avrupa Birliği'ndedir:</p>
+<ul>
+<li>Google AdMob ve Google Play Oyun Hizmetleri (Google LLC, Google Ireland Ltd.): reklam verileri, giriş yaparsan oyuncu adın ve skorların.</li>
+<li>Gmail (Google LLC): bize gönderdiğin destek e-postaları.</li>
+<li>GitHub Pages (GitHub, Inc.): bu sitenin ziyaret kayıtları.</li>
+</ul>
+<p>Türkiye'deki kullanıcılara ait verilerin yurt dışına aktarımı KVKK m.9'a uygun olarak yapılır. Bir aktarımın hangi güvenceye dayandığını öğrenmek için bize yazabilirsin. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki kullanıcılar için Google ve GitHub, Avrupa Komisyonu'nun Standart Sözleşme Hükümleri'ne ve AB-ABD Veri Gizliliği Çerçevesi'ne dayanır.</p>
 
 <h2>6. Saklama süreleri</h2>
-<div class="table-wrap"><table>
-<tr><th>Veri</th><th>Süre</th></tr>
-<tr><td>Telefondaki oyun verileri</td><td>Sen silene ya da oyunu kaldırana kadar</td></tr>
-<tr><td>Destek e-postaları</td><td>Konu çözüldükten 1 yıl sonra silinir</td></tr>
-<tr><td>Hak başvuruları ve cevapları</td><td>İspat amacıyla 3 yıl</td></tr>
-<tr><td>Google'ın işlediği veriler</td><td>Google'ın kendi saklama politikalarına göre</td></tr>
-</table></div>
+<ul>
+<li>Telefonundaki oyun verileri: sen silene veya oyunu kaldırana kadar.</li>
+<li>Destek e-postaları: konu çözüldükten bir yıl sonra silinir.</li>
+<li>Gizlilik başvuruları ve cevaplarımız: kayıt amacıyla üç yıl saklanır.</li>
+<li>Google'ın tuttuğu veriler: Google'ın kendi saklama politikalarına göre.</li>
+</ul>
 
 <h2>7. Çocuklar</h2>
-<p>Oyunlarımız 13 yaş ve üzeri oyunculara yöneliktir. 13 yaşından küçük bir çocuğun bize kişisel veri gönderdiğini öğrenirsek bu veriyi sileriz. Bulunduğun ülkede reklam izni vermek için gereken yaşın altındaysan izin penceresini velinle birlikte doldurmalısın.</p>
+<p>Oyunlarımız 13 yaş ve üzeri oyuncular içindir. 13 yaşından küçük bir çocuğa ait kişisel veri tuttuğumuzu öğrenirsek bu veriyi sileriz. Ülkende kişiselleştirilmiş reklam onayı için gereken yaşın altındaysan izin formunu bir ebeveyn veya vasiyle birlikte doldur.</p>
 
 <h2>8. Güvenlik</h2>
-<p>Kendi sunucumuzda kişisel veri tutmadığımız için oyuncu verilerinin toplu hâlde sızma riski en aza indirilmiştir. Kullandığımız tüm hesaplar iki adımlı doğrulama ile korunur ve yalnızca veri sorumlusu tarafından kullanılır. Bir veri ihlali yaşanırsa durumu en geç 72 saat içinde Kişisel Verileri Koruma Kurulu'na, etkilenen kişilere de en kısa sürede bildiririz.</p>
+<p>Kendimize ait sunucularda oyuncu verisi tutmuyoruz. Destek e-postaları Gmail hesabımızda saklanır. Hesaplarımız iki adımlı doğrulamayla korunur ve yalnızca veri sorumlusu erişebilir. Verilerini etkileyen bir ihlal olursa Kişisel Verileri Koruma Kurulu'na 72 saat içinde bildirir, seni de gecikmeden bilgilendiririz.</p>
 
 <h2>9. Hakların (KVKK m.11)</h2>
-<p>Bize başvurarak şu haklarını kullanabilirsin:</p>
+<p>KVKK m.11 uyarınca şu haklara sahipsin:</p>
 <ol>
 <li>Kişisel verilerinin işlenip işlenmediğini öğrenme,</li>
 <li>İşlenmişse buna ilişkin bilgi talep etme,</li>
@@ -137,119 +169,33 @@ footer a { color: var(--muted); }
 <li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</li>
 <li>Eksik veya yanlış işlenmişse düzeltilmesini isteme,</li>
 <li>KVKK m.7'deki şartlar çerçevesinde silinmesini veya yok edilmesini isteme,</li>
-<li>Düzeltme, silme veya yok etme işlemlerinin verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,</li>
-<li>Münhasıran otomatik sistemlerle analiz edilmesi sonucunda aleyhine bir sonucun ortaya çıkmasına itiraz etme,</li>
-<li>Kanuna aykırı işlenmesi sebebiyle zarara uğraman hâlinde zararın giderilmesini talep etme.</li>
+<li>Düzeltme ve silme işlemlerinin, verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,</li>
+<li>Münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhine bir sonuç çıkmasına itiraz etme,</li>
+<li>Kanuna aykırı işleme nedeniyle zarara uğrarsan zararın giderilmesini talep etme.</li>
 </ol>
-<p>AB'deysen GDPR kapsamındaki erişim, düzeltme, silme, işlemeyi kısıtlama, veri taşınabilirliği, itiraz ve rızanı geri alma haklarına da sahipsin.</p>
-<p><strong>Nasıl başvurulur?</strong> <a href="mailto:loadingdosegames+support@gmail.com?subject=KVKK%20Ba%C5%9Fvurusu">loadingdosegames+support@gmail.com</a> adresine "KVKK Başvurusu" konulu bir e-posta gönder. Kimliğini doğrulamak için ek bilgi isteyebiliriz. Başvurunu en geç 30 gün içinde ücretsiz olarak cevaplarız. Yazılı başvuru yapmak istersen posta adresimizi e-postayla talep edebilirsin.</p>
-<p>Cevabımızdan memnun kalmazsan Kişisel Verileri Koruma Kurulu'na (<a href="https://www.kvkk.gov.tr" rel="noopener">kvkk.gov.tr</a>) şikâyette bulunabilirsin. AB'deysen kendi ülkendeki veri koruma otoritesine başvurabilirsin.</p>
+<p>Ayrıca verdiğin rızayı istediğin zaman geri alabilirsin. Başvurularını <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a> adresine gönder; en geç 30 gün içinde ücretsiz cevap veririz. Kişisel Verileri Koruma Kurumu'na (<a href="https://www.kvkk.gov.tr" rel="noopener">kvkk.gov.tr</a>) şikâyette bulunma hakkın da vardır.</p>
 
 <h2>10. Değişiklikler</h2>
-<p>Bu metni gerektiğinde güncelleyebiliriz. Güncel hâli her zaman bu sayfada yayımlanır ve üstteki tarih değişir. Önemli değişikliklerde oyun içinde ayrıca bilgi veririz.</p>
-</article>
-<article class="en" lang="en">
-<h1>Privacy Policy</h1>
-<p class="date">Last updated: 1 November 2026</p>
+<p>Bu metni değiştirirsek yeni sürümü yeni tarihle bu sayfada yayınlar, önemli değişiklikleri oyun içinde duyururuz. Metin Türkçe ve İngilizce yayınlanır; aralarında fark olursa Türkiye'deki kullanıcılar için Türkçe, diğer herkes için İngilizce metin geçerlidir.</p>
 
-<div class="summary"><strong>In short</strong>
-<ul>
-<li>We don't run our own servers or databases. Your game progress is stored only on your phone.</li>
-<li>Ads (Google AdMob) and leaderboards (Google Play Games Services) are provided by Google. These services collect their own data.</li>
-<li>The only personal data we access directly is your email address and message if you email us.</li>
-<li>We don't sell your data.</li>
-</ul></div>
-
-<h2>1. Who we are</h2>
-<p>This policy applies to games published by Loading Dose Games (currently: <strong>NumBolt</strong>). It is provided under the EU General Data Protection Regulation (GDPR, Art. 13) and Turkey's Personal Data Protection Law No. 6698 (KVKK, Art. 10).</p>
-<p><strong>Data controller:</strong> Oğuz Çamlıbel (Loading Dose Games)<br>
-<strong>Email:</strong> <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a><br>
-<strong>Web:</strong> loadingdosegames.com</p>
-
-<h2>2. What we process, why, and on what legal basis</h2>
-
-<h3>2.1 Game data that stays on your phone</h3>
-<p>Your nickname, avatar and frame choices, scores, coins, XP and level, quest and daily reward status, and language, sound and vibration settings. This data is stored only on your phone. It is not sent to us and we cannot access it. It is deleted when you uninstall the game or tap <em>Settings → Delete my data</em>.</p>
-
-<h3>2.2 Google Play Games Services (if you sign in)</h3>
-<ul>
-<li><strong>Data:</strong> your Play Games player ID, player name and profile picture, the scores you submit to leaderboards and, once available, a cloud save of your progress.</li>
-<li><strong>Purpose:</strong> to run leaderboards and let you carry your progress between devices.</li>
-<li><strong>Legal basis:</strong> necessary to provide the game (GDPR Art. 6(1)(b); KVKK Art. 5(2)(c)).</li>
-<li>We never request your email address. In Google Play Console we can only see player names and scores on the leaderboard.</li>
-</ul>
-
-<h3>2.3 Ads (Google AdMob)</h3>
-<ul>
-<li><strong>Data:</strong> advertising ID (Android Advertising ID), IP address and approximate location derived from it, device model, operating system and language, and ad impression and click information.</li>
-<li><strong>Purpose:</strong> to show and measure ads and to prevent fraud and abuse; with your permission, to show ads based on your interests (personalised ads).</li>
-<li><strong>Legal basis:</strong> your consent for personalised ads (GDPR Art. 6(1)(a); KVKK Art. 5(1)). Our legitimate interest for non-personalised ads and fraud prevention (GDPR Art. 6(1)(f); KVKK Art. 5(2)(f)).</li>
-<li>In the EU, the UK and Switzerland the game shows Google's consent form on first launch. You can change your choice at any time in <em>Settings → Privacy options</em>.</li>
-<li>Google processes this data as an independent controller. See the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a>.</li>
-<li>You can reset or delete your advertising ID in your phone's <em>Settings → Google → Ads</em>.</li>
-</ul>
-
-<h3>2.4 Support emails</h3>
-<ul>
-<li><strong>Data:</strong> your email address, your name if you include it, and the content of your message.</li>
-<li><strong>Purpose:</strong> to answer you, fix problems and handle privacy requests.</li>
-<li><strong>Legal basis:</strong> providing the service and complying with legal obligations (GDPR Art. 6(1)(b) and (c); KVKK Art. 5(2)(c) and (ç)).</li>
-</ul>
-
-<h3>2.5 Google Play statistics</h3>
-<p>Google Play Console gives us aggregated, non-identifying statistics such as install counts, countries, crash and performance reports. We cannot identify you from them.</p>
-
-<h3>2.6 This website</h3>
-<p>loadingdosegames.com uses no cookies, ads or visitor tracking and collects no data through forms. The site is hosted on GitHub Pages (GitHub, Inc., USA). GitHub may briefly keep visitors' IP addresses in its technical logs to serve and secure the site. The site's fonts load from Google Fonts, which means your browser sends your IP address to Google (<a href="https://developers.google.com/fonts/faq/privacy" rel="noopener">Google Fonts privacy FAQ</a>). See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub General Privacy Statement</a>.</p>
-
-<h2>3. Sharing</h2>
-<p>We don't sell or rent your personal data. Data is shared only with Google LLC / Google Ireland Limited and GitHub, Inc., which provide the services above, and with public authorities where required by law.</p>
-
-<h2>4. International transfers</h2>
-<p>Google services (AdMob, Play Games Services and Gmail for email) and GitHub, which hosts this website, process data outside your country, mainly in the United States. For transfers from the EU, Google relies on the EU Standard Contractual Clauses and the EU-U.S. Data Privacy Framework. For transfers from Turkey, transfers are based on your explicit consent for personalised ads and otherwise on the safeguards provided for in KVKK Art. 9.</p>
-
-<h2>5. Retention</h2>
-<div class="table-wrap"><table>
-<tr><th>Data</th><th>Retention</th></tr>
-<tr><td>Game data on your phone</td><td>Until you delete it or uninstall the game</td></tr>
-<tr><td>Support emails</td><td>Deleted 1 year after the issue is resolved</td></tr>
-<tr><td>Privacy requests and our replies</td><td>3 years, as evidence</td></tr>
-<tr><td>Data processed by Google</td><td>According to Google's own retention policies</td></tr>
-</table></div>
-
-<h2>6. Children</h2>
-<p>Our games are intended for players aged 13 and over. If we learn that a child under 13 has sent us personal data, we will delete it. If you are below the age required in your country to consent to ads, please complete the consent form together with a parent or guardian.</p>
-
-<h2>7. Security</h2>
-<p>Because we don't keep personal data on our own servers, the risk of a large-scale leak of player data is minimised. All accounts we use are protected with two-step verification and used only by the data controller. If a personal data breach occurs, we will notify the competent authority within 72 hours and affected people without undue delay.</p>
-
-<h2>8. Your rights</h2>
-<p>You have the right to access, rectify and erase your personal data, to restrict or object to its processing, to data portability, and to withdraw your consent at any time. Players in Turkey also have the rights listed in KVKK Art. 11.</p>
-<p><strong>How to make a request:</strong> email <a href="mailto:loadingdosegames+support@gmail.com?subject=Privacy%20request">loadingdosegames+support@gmail.com</a> with the subject "Privacy request". We may ask for information to verify your identity. We reply free of charge within 30 days.</p>
-<p>You also have the right to lodge a complaint with your local data protection authority (in Turkey: the Personal Data Protection Authority, <a href="https://www.kvkk.gov.tr" rel="noopener">kvkk.gov.tr</a>).</p>
-
-<h2>9. Changes</h2>
-<p>We may update this policy. The current version is always published on this page with its date. We will also tell you in the game about significant changes.</p>
-</article>
-<footer>
-  <span>© 2026 Loading Dose Games</span>
-  <a href="../privacy/"><span class="en">Privacy</span><span class="tr">Gizlilik ve KVKK</span></a>
-  <a href="../terms/"><span class="en">Terms of Use</span><span class="tr">Kullanım Koşulları</span></a>
-  <a href="../delete-data/"><span class="en">Delete your data</span><span class="tr">Veri silme</span></a>
-  <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a>
-</footer>
+  </article>
+  <footer>
+    <span>© 2026 Loading Dose Games</span>
+    <a href="../privacy/">Privacy · Gizlilik</a>
+    <a href="../terms/">Terms · Koşullar</a>
+    <a href="../delete-data/">Delete your data · Veri silme</a>
+    <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a>
+  </footer>
 </div>
 <script>
-(function () {
-  var root = document.documentElement;
-  function setLang(l) { root.setAttribute('data-lang', l); root.setAttribute('lang', l); try { localStorage.setItem('ldg-lang', l); } catch (e) {} }
-  var h = (location.hash || '').slice(1).toLowerCase();
-  var saved = null; try { saved = localStorage.getItem('ldg-lang'); } catch (e) {}
-  var nav = (navigator.language || 'en').toLowerCase();
-  setLang(h === 'tr' || h === 'en' ? h : (saved || (nav.indexOf('tr') === 0 ? 'tr' : 'en')));
-  window.addEventListener('hashchange', function () { var x = (location.hash || '').slice(1).toLowerCase(); if (x === 'tr' || x === 'en') setLang(x); });
-  var b = document.getElementById('langBtn');
-  if (b) b.addEventListener('click', function () { setLang(root.getAttribute('data-lang') === 'tr' ? 'en' : 'tr'); });
+(function(){
+  var secs = document.querySelectorAll('[data-l]'), bs = document.querySelectorAll('.langs button');
+  function set(l){ secs.forEach(function(s){ s.hidden = s.getAttribute('data-l') !== l; });
+    bs.forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-set') === l ? 'true' : 'false'); });
+    document.documentElement.lang = l; }
+  bs.forEach(function(b){ b.addEventListener('click', function(){ var l = b.getAttribute('data-set'); set(l); history.replaceState(null, '', '#' + l); }); });
+  var h = (location.hash || '').slice(1).toLowerCase(); set(h === 'tr' ? 'tr' : 'en');
+  window.addEventListener('hashchange', function(){ var x = (location.hash || '').slice(1).toLowerCase(); if (x === 'tr' || x === 'en') set(x); });
 })();
 </script>
 </body>

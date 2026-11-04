@@ -1,108 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" data-lang="en">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Delete your data · Loading Dose Games</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="How to delete your NumBolt data.">
+<title>Delete Your Data | NumBolt by Loading Dose Games</title>
+<meta name="description" content="How to delete your NumBolt game data, Google Play Games data, advertising data and emails sent to Loading Dose Games.">
+<link rel="canonical" href="https://loadingdosegames.com/delete-data/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#17113A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Loading Dose Games">
+<meta property="og:title" content="Delete Your Data | NumBolt by Loading Dose Games">
+<meta property="og:description" content="How to delete your NumBolt game data, Google Play Games data, advertising data and emails sent to Loading Dose Games.">
+<meta property="og:url" content="https://loadingdosegames.com/delete-data/">
+<meta property="og:image" content="https://loadingdosegames.com/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@500;700;900&family=Silkscreen&display=swap">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>@font-face{font-family:"Lilita One";src:url("../fonts/lilita-one.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Nunito";src:url("../fonts/nunito.woff") format("woff");font-weight:500 900;font-style:normal;font-display:swap}</style>
 <style>
-:root {
-  --paper: #17113A; --panel: #211955; --ink: #FFF6E5; --muted: #BDB4E6; --teal: #3FC1C9; --coral: #FF5D73; --amber: #FFB627; --line: #3B3180;
-  --f-display: "Lilita One", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
-  --f-body: "Nunito", ui-rounded, "Segoe UI", system-ui, sans-serif;
-  color-scheme: dark;
-}
+:root { --night:#17113A; --panel:#211955; --line:#3B3180; --chalk:#FFF6E5; --muted:#BDB4E6; --amber:#FFB627; --coral:#FF5D73; --teal:#3FC1C9;
+  --f-display:"Lilita One","Arial Rounded MT Bold","Trebuchet MS",sans-serif; --f-body:"Nunito",ui-rounded,"Segoe UI",system-ui,sans-serif; color-scheme: dark; }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--paper); color: var(--ink); font: 1.0625rem/1.65 var(--f-body); -webkit-font-smoothing: antialiased; }
-[data-lang="en"] .tr, [data-lang="tr"] .en { display: none !important; }
-.wrap { max-width: 46rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 1.5rem 3rem; }
-.top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2.5rem; }
-.top a { color: var(--muted); text-decoration: none; font-weight: 700; }
-.top a:hover { color: var(--ink); }
-.lang { font: 900 .85rem var(--f-body); color: var(--ink); background: transparent; border: 2px solid var(--line); border-radius: 999px; padding: .2rem .7rem; cursor: pointer; }
-.lang:hover { border-color: var(--amber); color: var(--amber); }
+body { margin: 0; background: var(--night); color: var(--chalk); font: 1.0625rem/1.65 var(--f-body); -webkit-font-smoothing: antialiased; }
+[hidden] { display: none !important; }
+.wrap { max-width: 46rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 1.25rem 4rem; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2.25rem; }
+.top a.home { color: var(--muted); font-weight: 700; text-decoration: none; }
+.top a.home:hover { color: var(--chalk); }
+.langs { display: flex; gap: .4rem; }
+.langs button { font: 900 .85rem var(--f-body); color: var(--muted); background: transparent; border: 2px solid var(--line); border-radius: 999px; padding: .2rem .75rem; cursor: pointer; }
+.langs button[aria-pressed="true"] { color: var(--chalk); border-color: var(--amber); }
+a { color: var(--chalk); text-decoration-color: var(--teal); text-underline-offset: .18em; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; border-radius: 4px; }
-h1 { font-family: var(--f-display); font-weight: 400; color: var(--amber); font-size: clamp(2rem, 6vw, 2.8rem); letter-spacing: .005em; line-height: 1.05; margin: 0 0 .5rem; text-wrap: balance; }
+h1 { font-family: var(--f-display); font-weight: 400; color: var(--amber); font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.05; margin: 0 0 .4rem; text-wrap: balance; }
 .date { color: var(--muted); margin: 0 0 2rem; }
-h2 { font-family: var(--f-display); font-weight: 400; font-size: 1.45rem; letter-spacing: .01em; margin: 2.4rem 0 .5rem; text-wrap: balance; }
-h3 { font-size: 1.05rem; font-weight: 900; margin: 1.5rem 0 .35rem; color: var(--teal); }
-p, li { max-width: 65ch; }
-ul, ol { padding-left: 1.3rem; }
-li { margin-bottom: .4rem; }
-a { color: var(--ink); text-decoration-color: var(--teal); text-underline-offset: .18em; overflow-wrap: anywhere; }
-em { color: var(--muted); }
-.summary { background: var(--panel); border: 2px solid var(--line); border-radius: 18px; padding: 1rem 1.25rem; }
-.summary ul { margin: .4rem 0 0; }
-.table-wrap { overflow-x: auto; margin: .75rem 0; }
-table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .95rem; }
-th, td { border: 1px solid var(--line); padding: .55rem .7rem; text-align: left; vertical-align: top; }
-th { background: var(--panel); color: var(--amber); font-weight: 900; }
-footer { border-top: 3px solid var(--line); margin-top: 3rem; padding-top: 1.25rem; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; color: var(--muted); font-size: .9rem; }
+h2 { font-family: var(--f-display); font-weight: 400; font-size: 1.45rem; letter-spacing: .01em; margin: 2.25rem 0 .5rem; }
+h3 { font-size: 1.05rem; font-weight: 900; margin: 1.4rem 0 .3rem; }
+.short { background: var(--panel); border: 2px solid var(--line); border-radius: 16px; padding: 1rem 1.25rem; }
+ul, ol { padding-left: 1.25rem; } li { margin-bottom: .35rem; }
+footer { border-top: 2px solid var(--line); margin-top: 3rem; padding-top: 1.25rem; color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
 footer a { color: var(--muted); }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="top">
-    <a href="../">← Loading Dose Games</a>
-    <button class="lang" id="langBtn" type="button" aria-label="Switch language"><span class="en">TR</span><span class="tr">EN</span></button>
+    <a class="home" href="../">← Loading Dose Games</a>
+    <div class="langs" role="group" aria-label="Language"><button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="tr" aria-pressed="false" lang="tr">TR</button></div>
   </div>
-<article class="tr" lang="tr">
-<h1>Verilerini silme</h1>
-<p class="date">NumBolt · Loading Dose Games</p>
-<p>Oyun için hesap açmana gerek yok ve kendi sunucumuzda oyuncu verisi tutmuyoruz. Verilerini aşağıdaki yollarla kendin silebilirsin.</p>
+  <article data-l="en" lang="en">
+    <h1>Delete your NumBolt data</h1>
+    <p class="date">Last updated: 3 November 2026</p>
+    
+<p>You don't need an account to play NumBolt, and we don't keep player data on servers of our own. Here is how to delete each kind of data. This page covers the NumBolt app by Loading Dose Games.</p>
+<h2>1. Game data on your phone</h2><p>In the game, open <i>Settings → Delete my data</i> and confirm. Uninstalling the game does the same. Scores, coins, level, avatars and settings are deleted from your device immediately.</p>
+<h2>2. Google Play Games Services</h2><p>If you signed in, leaderboard scores and any cloud save are stored by Google. Open the Google Play Games app, go to your profile settings, choose to delete Play Games data, and select NumBolt.</p>
+<h2>3. Advertising data</h2><p>Delete or reset your advertising ID in your phone's settings under <i>Google → Ads</i>. To change your ad consent, use <i>Settings → Privacy options</i> in the game.</p>
+<h2>4. Emails you sent us</h2><p>Email <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a> with the subject "Data deletion request". We delete our correspondence with you within 30 days and confirm by email.</p>
+<h2>What is kept</h2>
+<ul>
+<li>Leaderboard scores and cloud saves stay with Google until you delete them through Google Play Games.</li>
+<li>Advertising data stays with Google until you delete your advertising ID or change your consent.</li>
+<li>If you don't ask us earlier, support emails are deleted automatically one year after the issue is resolved.</li>
+</ul>
 
-<h2>1. Telefondaki oyun verileri</h2>
-<p>Oyunda <strong>Ayarlar → Verilerimi sil</strong> düğmesine bas ve onayla. Skorların, coin, seviye, avatarlar ve ayarlar kalıcı olarak silinir. Oyunu telefonundan kaldırmak da aynı sonucu verir.</p>
+  </article>
+  <article data-l="tr" lang="tr">
+    <h1>NumBolt verilerini silme</h1>
+    <p class="date">Son güncelleme: 3 Kasım 2026</p>
+    
+<p>NumBolt'u oynamak için hesap gerekmez ve kendimize ait sunucularda oyuncu verisi tutmuyoruz. Her veri türünü nasıl sileceğin aşağıda. Bu sayfa Loading Dose Games'in NumBolt uygulamasını kapsar.</p>
+<h2>1. Telefonundaki oyun verileri</h2><p>Oyunda <i>Ayarlar → Verilerimi sil</i> seçeneğini aç ve onayla. Oyunu kaldırmak da aynı sonucu verir. Skorlar, jetonlar, seviye, avatarlar ve ayarlar cihazından hemen silinir.</p>
+<h2>2. Google Play Oyun Hizmetleri</h2><p>Giriş yaptıysan skor tablosu skorların ve varsa bulut kaydın Google'da saklanır. Google Play Games uygulamasını aç, profil ayarlarına gir, Play Games verilerini silme seçeneğini seç ve NumBolt'u işaretle.</p>
+<h2>3. Reklam verileri</h2><p>Reklam kimliğini telefonunun <i>Google → Reklamlar</i> ayarlarından sil veya sıfırla. Reklam onayını değiştirmek için oyunda <i>Ayarlar → Gizlilik seçenekleri</i> bölümünü kullan.</p>
+<h2>4. Bize gönderdiğin e-postalar</h2><p><a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a> adresine "Veri silme talebi" konulu bir e-posta gönder. Seninle olan yazışmalarımızı 30 gün içinde siler ve e-postayla onaylarız.</p>
+<h2>Saklanmaya devam edenler</h2>
+<ul>
+<li>Skor tablosu skorları ve bulut kayıtlar, sen Google Play Games üzerinden silene kadar Google'da kalır.</li>
+<li>Reklam verileri, reklam kimliğini silene veya onayını değiştirene kadar Google'da kalır.</li>
+<li>Daha önce talep etmezsen destek e-postaları, konu çözüldükten bir yıl sonra otomatik olarak silinir.</li>
+</ul>
 
-<h2>2. Google Play Oyun Hizmetleri verileri</h2>
-<p>Liderlik tablosu skorların ve bulut kaydın Google'da tutulur. Silmek için telefonunda <strong>Google Play Games</strong> uygulamasını aç, profil ayarlarından <em>Play Games hesabını ve verilerini sil</em> bölümüne gir ve NumBolt'u seç.</p>
-
-<h2>3. Reklam verileri</h2>
-<p>Telefonunda <strong>Ayarlar → Google → Reklamlar</strong> bölümünden reklam kimliğini silebilirsin. Reklam izni seçimini oyunda <em>Ayarlar → Gizlilik tercihleri</em> bölümünden değiştirebilirsin.</p>
-
-<h2>4. Bize gönderdiğin e-postalar</h2>
-<p><a href="mailto:loadingdosegames+support@gmail.com?subject=Veri%20silme%20talebi">loadingdosegames+support@gmail.com</a> adresine "Veri silme talebi" konulu bir e-posta gönder. Yazışmalarını en geç 30 gün içinde siler ve sana bildiririz. Aksi hâlde destek e-postaları konu çözüldükten 1 yıl sonra kendiliğinden silinir.</p>
-</article>
-<article class="en" lang="en">
-<h1>Delete your data</h1>
-<p class="date">NumBolt · Loading Dose Games</p>
-<p>You don't need an account to play, and we don't keep player data on our own servers. You can delete your data yourself as follows.</p>
-
-<h2>1. Game data on your phone</h2>
-<p>In the game, tap <strong>Settings → Delete my data</strong> and confirm. Your scores, coins, level, avatars and settings are permanently deleted. Uninstalling the game has the same effect.</p>
-
-<h2>2. Google Play Games Services data</h2>
-<p>Your leaderboard scores and cloud save are stored by Google. To delete them, open the <strong>Google Play Games</strong> app, go to your profile settings, choose <em>Delete Play Games account &amp; data</em> and select NumBolt.</p>
-
-<h2>3. Advertising data</h2>
-<p>You can delete your advertising ID in your phone's <strong>Settings → Google → Ads</strong>. You can change your ad consent choice in the game under <em>Settings → Privacy options</em>.</p>
-
-<h2>4. Emails you sent us</h2>
-<p>Email <a href="mailto:loadingdosegames+support@gmail.com?subject=Data%20deletion%20request">loadingdosegames+support@gmail.com</a> with the subject "Data deletion request". We will delete our correspondence with you within 30 days and confirm. Otherwise, support emails are deleted automatically 1 year after the issue is resolved.</p>
-</article>
-<footer>
-  <span>© 2026 Loading Dose Games</span>
-  <a href="../privacy/"><span class="en">Privacy</span><span class="tr">Gizlilik ve KVKK</span></a>
-  <a href="../terms/"><span class="en">Terms of Use</span><span class="tr">Kullanım Koşulları</span></a>
-  <a href="../delete-data/"><span class="en">Delete your data</span><span class="tr">Veri silme</span></a>
-  <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a>
-</footer>
+  </article>
+  <footer>
+    <span>© 2026 Loading Dose Games</span>
+    <a href="../privacy/">Privacy · Gizlilik</a>
+    <a href="../terms/">Terms · Koşullar</a>
+    <a href="../delete-data/">Delete your data · Veri silme</a>
+    <a href="mailto:loadingdosegames+support@gmail.com">loadingdosegames+support@gmail.com</a>
+  </footer>
 </div>
 <script>
-(function () {
-  var root = document.documentElement;
-  function setLang(l) { root.setAttribute('data-lang', l); root.setAttribute('lang', l); try { localStorage.setItem('ldg-lang', l); } catch (e) {} }
-  var h = (location.hash || '').slice(1).toLowerCase();
-  var saved = null; try { saved = localStorage.getItem('ldg-lang'); } catch (e) {}
-  var nav = (navigator.language || 'en').toLowerCase();
-  setLang(h === 'tr' || h === 'en' ? h : (saved || (nav.indexOf('tr') === 0 ? 'tr' : 'en')));
-  window.addEventListener('hashchange', function () { var x = (location.hash || '').slice(1).toLowerCase(); if (x === 'tr' || x === 'en') setLang(x); });
-  var b = document.getElementById('langBtn');
-  if (b) b.addEventListener('click', function () { setLang(root.getAttribute('data-lang') === 'tr' ? 'en' : 'tr'); });
+(function(){
+  var secs = document.querySelectorAll('[data-l]'), bs = document.querySelectorAll('.langs button');
+  function set(l){ secs.forEach(function(s){ s.hidden = s.getAttribute('data-l') !== l; });
+    bs.forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-set') === l ? 'true' : 'false'); });
+    document.documentElement.lang = l; }
+  bs.forEach(function(b){ b.addEventListener('click', function(){ var l = b.getAttribute('data-set'); set(l); history.replaceState(null, '', '#' + l); }); });
+  var h = (location.hash || '').slice(1).toLowerCase(); set(h === 'tr' ? 'tr' : 'en');
+  window.addEventListener('hashchange', function(){ var x = (location.hash || '').slice(1).toLowerCase(); if (x === 'tr' || x === 'en') set(x); });
 })();
 </script>
 </body>
